@@ -1,0 +1,31 @@
+{
+  "name": "constellate-example",
+  "version": "0.0.1",
+  "description": "An example implementation of Constellate",
+  "main": "index.js",
+  "repository": "https://github.com/ctrlplusb/constellate-example",
+  "author": "Sean Matheson <sean@ctrlplusb.com> (http://ctrlplusb.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "constellate-scripts build",
+    "develop": "constellate-scripts develop"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "packages/**/*.js"
+    ],
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "constellate-scripts": "file:../constellate/packages/constellate-scripts",
+    "eslint-config-constellate": "0.0.3"
+  }
+}
