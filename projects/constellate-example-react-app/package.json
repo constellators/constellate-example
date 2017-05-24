@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "constellate-example-react-app",
+  "description": "The universal React application",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "constellate-example-utils": "^0.0.1",
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  }
+}

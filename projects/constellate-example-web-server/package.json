@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "constellate-example-web-server",
+  "description": "The web server",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "constellate-example-react-app": "^0.0.1",
+    "constellate-example-utils": "^0.0.1",
+    "constellate-example-web-client": "^0.0.1",
+    "constellate-utils-web-project": "0.0.1",
+    "express": "4.15.2",
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  }
+}
