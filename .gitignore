@@ -27,3 +27,6 @@ pids
 # Visual Studio Code
 .vscode
 .history
+
+# Webpack
+.webpackcache
