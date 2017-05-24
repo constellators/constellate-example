@@ -2,7 +2,7 @@
   "private": true,
   "name": "constellate-example-web-client",
   "description": "The web client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "engines": {
     "node": ">=7"
@@ -11,7 +11,7 @@
     "dist"
   ],
   "dependencies": {
-    "constellate-example-react-app": "^0.0.1",
+    "constellate-example-react-app": "^0.0.2",
     "react": "15.5.4",
     "react-dom": "15.5.4"
   }
