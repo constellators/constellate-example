@@ -21,6 +21,6 @@
     ]
   },
   "devDependencies": {
-    "constellate": "0.0.15"
+    "constellate": "0.0.16"
   }
 }

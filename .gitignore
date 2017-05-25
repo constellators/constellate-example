@@ -1,32 +1,20 @@
-# Build Output
+# Constellate
 dist/
+.webpackcache
 
-# Logs
-logs
-*.log
-
-# Node
-node_modules
-npm-debug.log
-
-# Flow
-flow-typed/
-flow-coverage/
-
-# Various OS / Runtime
+# Various OS / Runtimes / Node
 .DS_Store
-Thumbs.db
-pids
+.lock-wscript
+*.log
 *.pid
 *.seed
-.lock-wscript
+logs
+node_modules
+npm-debug.log
+pids
+Thumbs.db
 
-# IntelliJ IDE ignore
-.idea
-
-# Visual Studio Code
-.vscode
+# IDEs
 .history
-
-# Webpack
-.webpackcache
+.idea
+.vscode
