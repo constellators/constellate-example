@@ -5,9 +5,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import getAssets from 'constellate-utils-web-project/getAssets'
 
-const webClientAssets = getAssets('myapp-web-client')
-
 function HTML({ app }) {
+  const webClientAssets = getAssets('myapp-web-client')
+
   return (
     <html>
       <head>

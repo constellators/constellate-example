@@ -20,6 +20,6 @@
     ]
   },
   "devDependencies": {
-    "constellate": "0.0.12"
+    "constellate": "0.0.14"
   }
 }

@@ -6,5 +6,6 @@ import HTML from './HTML'
 export default function reactApplicationMiddleware(req, resp) {
   const app = renderToString(<MyReactApp />)
   const fullPage = renderToStaticMarkup(<HTML app={app} />)
+
   resp.send(`<!DOCTYPE html>${fullPage}`)
 }
