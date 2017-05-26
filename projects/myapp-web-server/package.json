@@ -10,11 +10,13 @@
   "dependencies": {
     "constellate-utils-web-project": "0.0.11",
     "express": "^4.15.2",
-    "myapp-react-app": "^0.0.2",
-    "myapp-utils": "^0.0.2",
-    "myapp-web-client": "^0.0.2",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
+  },
+  "peerDependencies": {
+    "myapp-utils": "^0.0.2",
+    "myapp-react-app": "^0.0.2",
+    "myapp-web-client": "^0.0.2"
   }
 }

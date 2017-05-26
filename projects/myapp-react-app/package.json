@@ -9,8 +9,10 @@
   },
   "main": "build/index.js",
   "dependencies": {
-    "myapp-utils": "^0.0.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
+  },
+  "peerDependencies": {
+    "myapp-utils": "^0.0.2"
   }
 }

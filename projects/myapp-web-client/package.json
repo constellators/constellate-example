@@ -11,8 +11,10 @@
     "build"
   ],
   "dependencies": {
-    "myapp-react-app": "^0.0.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
+  },
+  "peerDependencies":{
+    "myapp-react-app": "^0.0.2"
   }
 }
