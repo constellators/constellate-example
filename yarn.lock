@@ -1307,17 +1307,17 @@ constants-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
 
-constellate-dev-utils@^0.0.18:
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/constellate-dev-utils/-/constellate-dev-utils-0.0.18.tgz#9ac1ddf73d1b51b3c0d2e3aa9f2847eddf81c251"
+constellate-dev-utils@^0.0.19:
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/constellate-dev-utils/-/constellate-dev-utils-0.0.19.tgz#cdf7744ee5c2c2782609eedf2f5abd4cb9891e97"
   dependencies:
     chalk "^1.1.3"
     figures "^2.0.0"
     ramda "^0.23.0"
 
-constellate@0.0.18:
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/constellate/-/constellate-0.0.18.tgz#52f85f131cfdc27879cc294aa6bdb422c2e8d416"
+constellate@^0.0.19:
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/constellate/-/constellate-0.0.19.tgz#5951e9d669920e3312fd5ff7cb932a9b779f69b4"
   dependencies:
     assets-webpack-plugin "^3.5.1"
     autoprefixer "^7.1.1"
@@ -1343,7 +1343,7 @@ constellate@0.0.18:
     case-sensitive-paths-webpack-plugin "^2.0.0"
     chokidar "^1.7.0"
     commander "^2.9.0"
-    constellate-dev-utils "^0.0.18"
+    constellate-dev-utils "^0.0.19"
     cross-spawn "^5.1.0"
     css-loader "^0.28.3"
     eslint-config-constellate "^0.0.18"
