@@ -1,5 +1,5 @@
 # Constellate
-dist/
+build
 .webpackcache
 
 # Various OS / Runtimes / Node

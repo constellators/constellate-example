@@ -1,10 +1,13 @@
 {
   "scripts": {
-    "init": "npm install && lerna bootstrap",
+    "init": "npm install && npm run link",
     "build": "constellate build",
     "clean": "constellate clean",
+    "link": "lerna bootstrap",
     "develop": "constellate develop",
-    "help": "constellate --help"
+    "package": "constellate package",
+    "deploy": "constellate deploy",
+    "update": "lerna exec --concurrency 1 -- npm-check -u"
   },
   "jest": {
     "collectCoverageFrom": [

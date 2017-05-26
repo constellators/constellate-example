@@ -6,9 +6,9 @@
   "engines": {
     "node": ">=7"
   },
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "dependencies": {
-    "constellate-utils-web-project": "^0.0.10",
+    "constellate-utils-web-project": "0.0.11",
     "express": "^4.15.2",
     "myapp-react-app": "^0.0.2",
     "myapp-utils": "^0.0.2",

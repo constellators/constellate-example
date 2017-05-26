@@ -11,5 +11,5 @@ express().use('*', reactApplicationMiddleware).listen(port, (err) => {
     console.error(err)
     return
   }
-  console.log(`${packageJson.name} listening on ${port}`)
+  console.log(`${packageJson.name} listening on http://0.0.0.0:${port}`)
 })

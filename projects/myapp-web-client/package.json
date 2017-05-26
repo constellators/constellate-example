@@ -8,7 +8,7 @@
     "node": ">=7"
   },
   "files": [
-    "dist"
+    "build"
   ],
   "dependencies": {
     "myapp-react-app": "^0.0.2",

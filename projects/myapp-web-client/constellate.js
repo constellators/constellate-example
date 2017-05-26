@@ -1,3 +1,4 @@
 module.exports = {
-  web: {},
+  target: 'web',
+  role: 'app',
 }

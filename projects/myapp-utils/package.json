@@ -8,6 +8,6 @@
     "node": ">=7"
   },
   "files": [
-    "dist"
+    "build"
   ]
 }
