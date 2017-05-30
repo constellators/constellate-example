@@ -3,6 +3,6 @@
   "name": "myapp-utils",
   "description": "Shared utils",
   "files": [
-    "build"
+    "modules"
   ]
 }

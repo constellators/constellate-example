@@ -2,7 +2,7 @@
   "private": true,
   "name": "myapp-react-app",
   "description": "The universal React application",
-  "main": "build/index.js",
+  "main": "modules/index.js",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"

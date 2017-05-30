@@ -3,7 +3,7 @@
   "name": "myapp-web-client",
   "description": "The web client",
   "files": [
-    "build"
+    "modules"
   ],
   "dependencies": {
     "react": "^15.5.4",
