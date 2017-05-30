@@ -5,8 +5,10 @@ function App() {
     <div style={{ padding: '2rem' }}>
       <div style={{ textAlign: 'center' }}>
         <img
-          src="https://cdn.rawgit.com/constellators/constellate/20baeb89/assets/logo.png"
+          src="https://cdn.rawgit.com/constellators/constellate/7934b911/assets/logo.png"
           alt="Constellate"
+          width="200"
+          height="173"
         />
         <h1>constellate-example</h1>
       </div>

@@ -1,5 +1,5 @@
 module.exports = {
   target: 'web',
   role: 'app',
-  constellateDependencies: ['myapp-react-app'],
+  link: ['myapp-react-app'],
 }

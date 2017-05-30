@@ -4,5 +4,5 @@ module.exports = {
   // We are using Webpack rather than Babel as we are server side rendering a
   // React application.
   compiler: 'webpack',
-  constellateDependencies: ['myapp-web-client', 'myapp-react-app', 'myapp-utils'],
+  link: ['myapp-web-client', 'myapp-react-app', 'myapp-utils'],
 }

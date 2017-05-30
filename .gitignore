@@ -13,8 +13,13 @@ node_modules
 npm-debug.log
 pids
 Thumbs.db
+.nvmrc
 
 # IDEs
 .history
 .idea
 .vscode
+
+
+# TEMPORARY - REMOVE THIS AFTER EXAMPLE READY
+yarn.lock

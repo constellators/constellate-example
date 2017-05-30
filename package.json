@@ -10,6 +10,10 @@
     "deploy": "constellate deploy",
     "update": "constellate update"
   },
+  "eslintConfig": {
+    "root": true,
+    "extends": "constellate"
+  },
   "jest": {
     "collectCoverageFrom": [
       "projects/**/*.js"
@@ -25,6 +29,6 @@
     ]
   },
   "devDependencies": {
-    "constellate": "^0.0.19"
+    "constellate": "^0.0.20"
   }
 }
