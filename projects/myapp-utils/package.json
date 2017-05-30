@@ -2,11 +2,6 @@
   "private": true,
   "name": "myapp-utils",
   "description": "Shared utils",
-  "version": "0.0.2",
-  "license": "MIT",
-  "engines": {
-    "node": ">=7"
-  },
   "files": [
     "build"
   ]

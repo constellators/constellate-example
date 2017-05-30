@@ -1,5 +1,5 @@
 module.exports = {
   target: 'web',
   role: 'app',
-  link: ['myapp-react-app'],
+  dependencies: ['myapp-react-app'],
 }

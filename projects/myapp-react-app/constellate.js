@@ -1,3 +1,3 @@
 module.exports = {
-  link: ['myapp-utils'],
+  dependencies: ['myapp-utils'],
 }

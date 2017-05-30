@@ -1,5 +1,6 @@
 # Constellate
 build
+packages
 .webpackcache
 
 # Various OS / Runtimes / Node

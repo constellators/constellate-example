@@ -2,17 +2,9 @@
   "private": true,
   "name": "myapp-react-app",
   "description": "The universal React application",
-  "version": "0.0.2",
-  "license": "MIT",
-  "engines": {
-    "node": ">=7"
-  },
   "main": "build/index.js",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
-  },
-  "peerDependencies": {
-    "myapp-utils": "~0.0.2"
   }
 }
