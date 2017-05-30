@@ -2,9 +2,6 @@
   "private": true,
   "name": "myapp-web-client",
   "description": "The web client",
-  "files": [
-    "modules"
-  ],
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"

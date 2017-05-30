@@ -1,8 +1,5 @@
 {
   "private": true,
   "name": "myapp-utils",
-  "description": "Shared utils",
-  "files": [
-    "modules"
-  ]
+  "description": "Shared utils"
 }

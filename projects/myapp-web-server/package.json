@@ -2,7 +2,6 @@
   "private": true,
   "name": "myapp-web-server",
   "description": "The web server",
-  "main": "modules/index.js",
   "dependencies": {
     "constellate-utils": "^0.0.20",
     "express": "^4.15.2",
