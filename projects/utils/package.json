@@ -1,5 +1,5 @@
 {
   "private": true,
-  "name": "myapp-utils",
+  "name": "@ctrlplusb/constellate-example-utils",
   "description": "Shared utils"
 }

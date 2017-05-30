@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import getWebProjectManifest from 'constellate-utils/getWebProjectManifest'
 
 function HTML({ app }) {
-  const webClientAssets = getWebProjectManifest('myapp-web-client')
+  const webClientAssets = getWebProjectManifest('@ctrlplusb/constellate-example-web-client')
 
   return (
     <html>

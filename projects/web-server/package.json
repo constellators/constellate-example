@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "myapp-web-server",
+  "name": "@ctrlplusb/constellate-example-web-server",
   "description": "The web server",
   "dependencies": {
     "constellate-utils": "^0.0.20",

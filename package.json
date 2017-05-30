@@ -1,14 +1,13 @@
 {
   "scripts": {
-    "init": "constellate init",
+    "bootstrap": "constellate bootstrap",
+    "update": "constellate update",
     "build": "constellate build",
     "clean": "constellate clean",
     "link": "constellate link",
     "develop": "constellate develop",
-    "package": "constellate package",
     "publish": "constellate publish",
-    "deploy": "constellate deploy",
-    "update": "constellate update"
+    "deploy": "constellate deploy"
   },
   "eslintConfig": {
     "root": true,
