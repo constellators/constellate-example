@@ -29,6 +29,6 @@
     ]
   },
   "devDependencies": {
-    "constellate": "^0.0.20"
+    "constellate": "^0.0.21"
   }
 }

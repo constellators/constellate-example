@@ -13,7 +13,6 @@ node_modules
 npm-debug.log
 pids
 Thumbs.db
-.nvmrc
 
 # IDEs
 .history
@@ -23,3 +22,4 @@ Thumbs.db
 
 # TEMPORARY - REMOVE THIS AFTER EXAMPLE READY
 yarn.lock
+.nvmrc
