@@ -5,18 +5,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import getWebProjectManifest from 'constellate-utils/getWebProjectManifest'
 
-function HTML({ app }) {
-  const webClientAssets = getWebProjectManifest('@ctrlplusb/constellate-example-web-client')
+const webClientManifest = getWebProjectManifest('@ctrlplusb/constellate-example-web-client')
 
+function HTML({ app }) {
   return (
     <html>
       <head>
-        {webClientAssets.main.css && <link rel="stylesheet" href={webClientAssets.main.css} />}
+        {webClientManifest && <link rel="stylesheet" href={webClientManifest.httpPaths.css} />}
       </head>
       <body>
         <div id="app" dangerouslySetInnerHTML={{ __html: app }} />
 
-        {webClientAssets.main.js && <script type="text/javascript" src={webClientAssets.main.js} />}
+        {webClientManifest &&
+          <script type="text/javascript" src={webClientManifest.httpPaths.js} />}
       </body>
     </html>
   )

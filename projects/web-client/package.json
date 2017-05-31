@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@ctrlplusb/constellate-example-web-client",
   "description": "The web client",
   "dependencies": {
