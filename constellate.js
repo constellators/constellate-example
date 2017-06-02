@@ -1,5 +1,5 @@
 module.exports = {
-  version: '0.0.2',
+  publishBranch: 'master',
   packageClient: 'yarn',
   // Default settings for each project if no project-specific settings are
   // provided:

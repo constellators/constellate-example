@@ -11,6 +11,8 @@ function App() {
           height="173"
         />
         <h1>constellate-example</h1>
+
+        <script type="text/javascript" src="https://form.jotformeu.com/jsform/71503741784357" />
       </div>
     </div>
   )
