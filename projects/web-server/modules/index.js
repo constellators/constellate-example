@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 import express from 'express'
-import getWebProjectManifest from 'constellate-utils/getWebProjectManifest'
+import getWebProjectManifest from 'constellate-utils/modules/getWebProjectManifest'
 import reactApplicationMiddleware from './reactApplicationMiddleware'
 import packageJson from '../package.json'
 

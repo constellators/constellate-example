@@ -10,7 +10,7 @@ function App() {
           width="200"
           height="173"
         />
-        <h1>constellate-example</h1>
+        <h1>constellate-example 1</h1>
       </div>
     </div>
   )

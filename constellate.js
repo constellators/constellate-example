@@ -8,7 +8,6 @@ module.exports = {
       // foo
     },
   },
-  packageClient: 'yarn',
   // Default settings for each project if no project-specific settings are
   // provided:
   projectDefaults: {

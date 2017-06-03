@@ -3,7 +3,7 @@
   "name": "@ctrlplusb/constellate-example-web-server",
   "description": "The web server",
   "dependencies": {
-    "constellate-utils": "^0.0.26",
+    "constellate-utils": "^0.1.1",
     "express": "^4.15.2",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
