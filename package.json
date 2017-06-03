@@ -3,9 +3,8 @@
   "scripts": {
     "bootstrap": "constellate bootstrap",
     "update": "constellate update",
-    "build": "constellate build",
     "clean": "constellate clean",
-    "link": "constellate link",
+    "build": "constellate build",
     "develop": "constellate develop",
     "publish": "constellate publish",
     "deploy": "constellate deploy"
