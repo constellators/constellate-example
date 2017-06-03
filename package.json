@@ -1,4 +1,5 @@
 {
+  "private": true,
   "scripts": {
     "bootstrap": "constellate bootstrap",
     "update": "constellate update",
@@ -12,20 +13,6 @@
   "eslintConfig": {
     "root": true,
     "extends": "constellate"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "projects/**/*.js"
-    ],
-    "snapshotSerializers": [
-      "<rootDir>/node_modules/enzyme-to-json/serializer"
-    ]
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier-eslint --write",
-      "git add"
-    ]
   },
   "devDependencies": {
     "constellate": "^0.0.28"
