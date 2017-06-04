@@ -11,6 +11,8 @@ function App() {
           height="173"
         />
         <h1>constellate-example</h1>
+
+        <p><span role="img" aria-label="heart">❤️</span></p>
       </div>
     </div>
   )
