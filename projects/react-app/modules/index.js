@@ -12,7 +12,7 @@ function App() {
         />
         <h1>constellate-example</h1>
 
-        <p><span role="img" aria-label="heart">❤️</span></p>
+        <p><span role="img" aria-label="hearts">❤️❤️</span></p>
       </div>
     </div>
   )
