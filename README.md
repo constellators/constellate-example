@@ -4,4 +4,4 @@
 
 <h1 align="center">constellate-example</h1>
 
-WIP
+[WIP] An example implementation using [Constellate](https://github.com/constellators/constellate)
