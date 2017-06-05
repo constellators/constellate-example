@@ -1,4 +1,5 @@
 {
+  "version": "0.0.9",
   "private": true,
   "name": "@ctrlplusb/constellate-example-web-server",
   "description": "The web server",

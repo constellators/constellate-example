@@ -1,4 +1,5 @@
 {
+  "version": "0.0.9",
   "name": "@ctrlplusb/constellate-example-react-app",
   "description": "The universal React application",
   "main": "modules/index.js",
