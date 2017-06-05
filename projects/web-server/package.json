@@ -2,14 +2,15 @@
   "private": true,
   "name": "@ctrlplusb/constellate-example-web-server",
   "description": "The web server",
+  "scripts": {
+    "start": "node ./modules/index.js"
+  },
+  "main": "modules/index.js",
   "dependencies": {
     "constellate-utils": "^0.1.1",
     "express": "^4.15.2",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
-  },
-  "scripts": {
-    "start": "node ./modules/index.js"
   }
 }

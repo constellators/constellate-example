@@ -1,4 +1,5 @@
 {
   "name": "@ctrlplusb/constellate-example-utils",
-  "description": "Shared utils"
+  "description": "Shared utils",
+  "main": "modules/index.js"
 }

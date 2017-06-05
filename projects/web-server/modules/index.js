@@ -3,11 +3,9 @@
 import express from 'express'
 import getWebProjectManifest from 'constellate-utils/modules/getWebProjectManifest'
 import reactApplicationMiddleware from './reactApplicationMiddleware'
-import packageJson from '../package.json'
 
 const webClientManifest = getWebProjectManifest('@ctrlplusb/constellate-example-web-client')
 const port = process.env.PORT || 1337
-
 const app = express()
 
 // Static serving of web-client
@@ -26,5 +24,5 @@ app.listen(port, (err) => {
     console.error(err)
     return
   }
-  console.log(`${packageJson.name} listening on http://0.0.0.0:${port}`)
+  console.log(`Web server running on http://0.0.0.0:${port}`)
 })

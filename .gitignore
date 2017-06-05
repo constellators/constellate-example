@@ -1,6 +1,5 @@
 # Constellate
 build
-packages
 .webpackcache
 
 # Various OS / Runtimes / Node
@@ -14,13 +13,3 @@ node_modules
 npm-debug.log
 pids
 Thumbs.db
-
-# IDEs
-.history
-.idea
-.vscode
-
-
-# TEMPORARY - REMOVE THIS AFTER EXAMPLE READY
-yarn.lock
-.nvmrc
