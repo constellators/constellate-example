@@ -1,39 +1,26 @@
 module.exports = {
-  publishing: {
-    git: {
-      branch: 'master',
-      remote: 'origin',
-    },
-    npm: {
-      // foo
-    },
-  },
-  // Default settings for each project if no project-specific settings are
-  // provided:
-  projectDefaults: {
-    target: 'node',
-    role: 'library',
-    compiler: 'babel',
-    // We plan to deploy to "now", which currently only supports the following
-    // maximum version of node:
-    nodeVersion: '7.10.0',
-  },
   projects: {
     'react-app': {
       dependencies: ['utils'],
     },
     'web-client': {
-      target: 'web',
-      role: 'app',
-      dependencies: ['react-app'],
+      bundledDependencies: ['react-app'],
+      role: 'client',
+      compiler: 'webpack',
+      compilerOptions: {
+        browserList: '7.10.0',
+      },
     },
     'web-server': {
-      target: 'node',
+      dependencies: ['web-client'],
+      bundledDependencies: ['react-app', 'utils'],
       role: 'server',
-      // We are using Webpack rather than Babel as we are server side rendering a
-      // React application.
-      compiler: 'webpack',
-      dependencies: ['react-app', 'utils', 'web-client'],
+      compiler: 'webpack-node',
+      // We plan to deploy to "now", which currently supports the following
+      // maximum version of node:
+      compilerOptions: {
+        nodeVersion: '7.10.0',
+      },
     },
   },
 }
