@@ -1,9 +1,9 @@
 {
-  "version": "0.1.1",
-  "name": "@ctrlplusb/constellate-example-web-client",
-  "description": "The web client",
-  "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  }
+	"version": "0.1.2",
+	"name": "@ctrlplusb/constellate-example-web-client",
+	"description": "The web client",
+	"dependencies": {
+		"react": "^15.5.4",
+		"react-dom": "^15.5.4"
+	}
 }

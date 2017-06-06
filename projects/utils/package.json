@@ -1,6 +1,6 @@
 {
-  "version": "0.1.1",
-  "name": "@ctrlplusb/constellate-example-utils",
-  "description": "Shared utils",
-  "main": "modules/index.js"
+	"version": "0.1.2",
+	"name": "@ctrlplusb/constellate-example-utils",
+	"description": "Shared utils",
+	"main": "modules/index.js"
 }
