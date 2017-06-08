@@ -14,15 +14,18 @@ module.exports = {
     },
     'web-client': {
       compiler: 'webpack',
-      bundledDependencies: ['react-app'],
+      dependencies: ['react-app'],
+      compilerOptions: {
+        bundledDependencies: ['react-app'],
+      },
     },
     'web-server': {
       compiler: 'webpack-node',
       role: 'server',
-      dependencies: ['web-client'],
-      bundledDependencies: ['react-app', 'utils'],
+      dependencies: ['react-app', 'web-client'],
       compilerOptions: {
         nodeVersion: '7.10.0',
+        bundledDependencies: ['react-app'],
       },
     },
   },
