@@ -1,6 +1,15 @@
 module.exports = {
+  publishing: {
+    npm: {
+      enabled: false,
+    },
+  },
   projects: {
+    utils: {
+      compiler: 'babel',
+    },
     'react-app': {
+      compiler: 'babel',
       dependencies: ['utils'],
     },
     'web-client': {
