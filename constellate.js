@@ -14,7 +14,6 @@ module.exports = {
     },
     'web-client': {
       compiler: 'webpack',
-      role: 'client',
       bundledDependencies: ['react-app'],
     },
     'web-server': {
