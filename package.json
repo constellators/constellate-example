@@ -14,10 +14,10 @@
     "extends": "constellate"
   },
   "devDependencies": {
-    "constellate": "^0.4.0",
-    "constellate-plugin-compiler-babel": "^0.4.0",
-    "constellate-plugin-compiler-webpack": "^0.4.0",
-    "constellate-plugin-compiler-webpack-node": "^0.4.0",
-    "eslint-config-constellate": "^0.4.0"
+    "constellate": "^0.4.1",
+    "constellate-plugin-compiler-babel": "^0.4.1",
+    "constellate-plugin-compiler-webpack": "^0.4.1",
+    "constellate-plugin-compiler-webpack-node": "^0.4.1",
+    "eslint-config-constellate": "^0.4.1"
   }
 }
