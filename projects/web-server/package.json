@@ -8,10 +8,10 @@
 	},
 	"main": "modules/index.js",
 	"dependencies": {
-		"constellate-utils": "^0.4.1",
-		"express": "^4.15.2",
-		"prop-types": "^15.5.10",
-		"react": "^15.5.4",
-		"react-dom": "^15.5.4"
+		"constellate-utils": "0.4.1",
+		"express": "4.15.2",
+		"prop-types": "15.5.10",
+		"react": "15.5.4",
+		"react-dom": "15.5.4"
 	}
 }
