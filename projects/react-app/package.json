@@ -4,7 +4,7 @@
   "description": "The universal React application",
   "main": "modules/index.js",
   "dependencies": {
-    "react": "15.5.4",
-    "react-dom": "15.5.4"
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
   }
 }
