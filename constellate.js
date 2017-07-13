@@ -1,9 +1,4 @@
 module.exports = {
-  publishing: {
-    npm: {
-      enabled: false,
-    },
-  },
   projects: {
     utils: {
       compiler: 'babel',
@@ -13,20 +8,20 @@ module.exports = {
       dependencies: ['utils'],
     },
     'web-client': {
-      compiler: 'webpack',
-      develop: 'webpack',
       dependencies: ['react-app'],
+      compiler: 'webpack',
       compilerOptions: {
         bundledDependencies: ['react-app'],
       },
+      develop: 'webpack',
     },
     'web-server': {
-      compiler: 'webpack-node',
-      develop: 'server',
       dependencies: ['react-app', 'web-client'],
+      compiler: 'webpack-node',
       compilerOptions: {
         bundledDependencies: ['react-app'],
       },
+      develop: 'server',
     },
   },
 }
