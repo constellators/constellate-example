@@ -8,7 +8,7 @@
 	},
 	"main": "modules/index.js",
 	"dependencies": {
-		"constellate-utils": "0.9.3",
+		"constellate-utils": "0.10.1",
 		"express": "4.15.3",
 		"prop-types": "15.5.10",
 		"react": "15.6.1",
