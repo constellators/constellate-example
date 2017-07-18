@@ -10,6 +10,7 @@ module.exports = {
     'web-server': {
       compiler: 'webpack-node',
       develop: 'server',
+      deploy: 'now',
     },
   },
 }
