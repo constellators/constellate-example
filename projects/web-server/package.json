@@ -6,7 +6,7 @@
 		"start": "node ./modules/index.js"
 	},
 	"dependencies": {
-		"constellate-utils": "0.11.0",
+		"constellate-utils": "0.12.4",
 		"express": "4.15.3",
 		"prop-types": "15.5.10",
 		"react": "15.6.1",
