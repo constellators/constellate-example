@@ -5,12 +5,11 @@
     "extends": "constellate"
   },
   "devDependencies": {
-    "constellate": "0.12.4",
-    "constellate-plugin-compiler-babel": "0.12.4",
-    "constellate-plugin-compiler-webpack": "0.12.4",
-    "constellate-plugin-compiler-webpack-node": "0.12.4",
-    "constellate-plugin-deploy-now": "0.12.4",
-    "constellate-plugin-develop-webpack": "0.12.4",
-    "eslint-config-constellate": "0.12.4"
+    "constellate": "0.12.5",
+    "constellate-plugin-compiler-babel": "0.12.5",
+    "constellate-plugin-compiler-webpack": "0.12.5",
+    "constellate-plugin-compiler-webpack-node": "0.12.5",
+    "constellate-plugin-develop-webpack": "0.12.5",
+    "eslint-config-constellate": "0.12.5"
   }
 }
