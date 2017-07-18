@@ -1,11 +1,11 @@
 {
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"name": "constellate-example-web-client",
 	"description": "The web client",
 	"dependencies": {
 		"react": "15.6.1",
 		"react-dom": "15.6.1",
-		"constellate-example-react-app": "0.2.2"
+		"constellate-example-react-app": "0.2.3"
 	},
 	"engines": {
 		"node": ">=8"
