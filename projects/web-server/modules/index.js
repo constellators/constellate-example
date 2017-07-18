@@ -4,7 +4,7 @@ import express from 'express'
 import getWebProjectManifest from 'constellate-utils/modules/getWebProjectManifest'
 import reactApplicationMiddleware from './reactApplicationMiddleware'
 
-const webClientManifest = getWebProjectManifest('@ctrlplusb/constellate-example-web-client')
+const webClientManifest = getWebProjectManifest('constellate-example-web-client')
 const port = process.env.PORT || 1337
 const app = express()
 

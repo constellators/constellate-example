@@ -5,7 +5,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import getWebProjectManifest from 'constellate-utils/modules/getWebProjectManifest'
 
-const webClientManifest = getWebProjectManifest('@ctrlplusb/constellate-example-web-client')
+const webClientManifest = getWebProjectManifest('constellate-example-web-client')
 
 function HTML({ app }) {
   return (

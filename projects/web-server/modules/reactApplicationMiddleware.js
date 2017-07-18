@@ -1,6 +1,6 @@
 import React from 'react'
 import { renderToString, renderToStaticMarkup } from 'react-dom/server'
-import MyReactApp from '@ctrlplusb/constellate-example-react-app'
+import MyReactApp from 'constellate-example-react-app'
 import HTML from './HTML'
 
 export default function reactApplicationMiddleware(req, resp) {
