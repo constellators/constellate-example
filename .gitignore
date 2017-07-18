@@ -1,5 +1,6 @@
 # Constellate
-build
+build/
+deploy/
 .webpackcache
 
 # Various OS / Runtimes / Node
