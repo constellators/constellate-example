@@ -1,10 +1,14 @@
 {
-	"version": "0.2.0",
-	"name": "@ctrlplusb/constellate-example-react-app",
-	"description": "The universal React application",
-	"main": "modules/index.js",
-	"dependencies": {
-		"react": "15.6.1",
-		"react-dom": "15.6.1"
-	}
+  "version": "0.2.0",
+  "name": "constellate-example-react-app",
+  "description": "The universal React application",
+  "dependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": ["modules"],
+  "main": "modules/index.js"
 }

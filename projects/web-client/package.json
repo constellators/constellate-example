@@ -1,9 +1,14 @@
 {
-	"version": "0.2.0",
-	"name": "@ctrlplusb/constellate-example-web-client",
-	"description": "The web client",
-	"dependencies": {
-		"react": "15.6.1",
-		"react-dom": "15.6.1"
-	}
+  "version": "0.2.0",
+  "name": "constellate-example-web-client",
+  "description": "The web client",
+  "dependencies": {
+    "constellate-example-react-app": "0.2.0",
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": ["modules"]
 }
