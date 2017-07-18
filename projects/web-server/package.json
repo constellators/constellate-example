@@ -1,23 +1,25 @@
 {
-  "private": true,
-  "version": "0.2.0",
-  "name": "constellate-example-web-server",
-  "description": "The web server",
-  "scripts": {
-    "start": "node ./modules/index.js"
-  },
-  "dependencies": {
-    "constellate-example-react-app": "0.2.0",
-    "constellate-example-web-client": "0.2.0",
-    "constellate-utils": "0.10.1",
-    "express": "4.15.3",
-    "prop-types": "15.5.10",
-    "react": "15.6.1",
-    "react-dom": "15.6.1"
-  },
-  "engines": {
-    "node": ">=8"
-  },
-  "main": "modules/index.js",
-  "files": ["modules"]
+	"private": true,
+	"version": "0.2.0",
+	"name": "constellate-example-web-server",
+	"description": "The web server",
+	"scripts": {
+		"start": "node ./modules/index.js"
+	},
+	"dependencies": {
+		"constellate-utils": "0.11.0",
+		"express": "4.15.3",
+		"prop-types": "15.5.10",
+		"react": "15.6.1",
+		"react-dom": "15.6.1",
+		"constellate-example-react-app": "0.2.0",
+		"constellate-example-web-client": "0.2.0"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"main": "modules/index.js",
+	"files": [
+		"modules"
+	]
 }
