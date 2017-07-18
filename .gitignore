@@ -2,6 +2,7 @@
 build/
 deploy/
 .webpackcache
+.env
 
 # Various OS / Runtimes / Node
 .DS_Store
