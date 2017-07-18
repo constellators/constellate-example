@@ -20,7 +20,7 @@ function App() {
 
       <p>
         <span role="img" aria-label="hearts">
-          ❤️
+          ❤️❤️
         </span>
       </p>
     </div>
