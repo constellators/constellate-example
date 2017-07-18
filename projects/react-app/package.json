@@ -1,5 +1,5 @@
 {
-	"version": "0.2.5",
+	"version": "0.2.6",
 	"name": "constellate-example-react-app",
 	"description": "The universal React application",
 	"dependencies": {
