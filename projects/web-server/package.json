@@ -1,5 +1,5 @@
 {
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"private": true,
 	"name": "constellate-example-web-server",
 	"description": "The web server",
@@ -12,8 +12,8 @@
 		"prop-types": "15.5.10",
 		"react": "15.6.1",
 		"react-dom": "15.6.1",
-		"constellate-example-react-app": "0.2.3",
-		"constellate-example-web-client": "0.2.3"
+		"constellate-example-react-app": "0.2.4",
+		"constellate-example-web-client": "0.2.4"
 	},
 	"engines": {
 		"node": ">=8"
