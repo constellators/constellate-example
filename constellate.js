@@ -18,6 +18,11 @@ module.exports = {
         nowConfig: {
           forwardNpm: true,
           public: false,
+          user: {
+            // uid: 'VRmSN0DNDgRWLLPaUxMKGSrr',
+            username: 'ctrlplusb',
+            email: 'sean@ctrlplusb.com',
+          },
         },
       },
     },
