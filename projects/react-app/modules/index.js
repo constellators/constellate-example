@@ -12,7 +12,7 @@ function App() {
       }}
     >
       <img
-        src="https://cdn.rawgit.com/constellators/constellate/8e303aad/assets/logo-full.png"
+        src="https://cdn.jsdelivr.net/gh/constellators/constellate@8e303aad/assets/logo-full.png"
         alt="Constellate"
         width="250"
         height="152.84"
